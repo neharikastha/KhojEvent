@@ -1,0 +1,194 @@
+body {
+  margin: 0;
+  margin-top: 100px;
+  font-family: 'Arial', sans-serif;
+}
+
+.navbar {
+  background-color: #333;
+  padding: 10px;
+  color: white;
+  text-align: center;
+  border-radius: 30px;
+}
+
+.event-form {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Added box shadow */
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input,
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+/* Ticket Type Styling */
+.ticket-type-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px; /* Increased margin-bottom */
+}
+
+.ticket-type-label {
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+.ticket-options {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+
+.ticket-options label {
+  margin-right: 10px;
+}
+
+/* Date and Time Container Styling */
+.date-time-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+/* Date Container Styling */
+.date-container,
+.time-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+  width: 48%;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 600px) {
+  .date-container,
+  .time-container {
+    width: 100%;
+  }
+}
+
+button {
+  background-color: #ff6f61; /* Adjusted button color */
+  color: white;
+  padding: 14px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #e74c48; /* Adjusted button hover color */
+}
+
+/* Button Container Styling */
+.button-container {
+  margin-bottom: 40px; /* Increased margin-bottom */
+}
+
+.form-footer {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.form-footer button {
+  margin-left: 10px; /* Add margin if needed */
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 600px) {
+  input,
+  select,
+  textarea {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  input,
+  select,
+  textarea {
+    font-size: 12px;
+  }
+}
+
+/* Tags Container Styling */
+.tags-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.tag {
+  margin: 4px;
+  padding: 8px;
+  background-color: #f2f5f8;
+  color: #060000;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1); /* Added box shadow */
+}
+
+.tag:hover {
+  background-color: #f47976;
+}
+
+.tag.selected {
+  background-color: #eba7a7;
+}
+
+.tag.selected:hover {
+  background-color: #dc8a8a;
+}
+
+/* Image Styling */
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input[type="file"] {
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  cursor: pointer;
+}
+
+input[type="file"]:hover {
+  background-color: #e0e0e0;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 600px) {
+  input[type="file"] {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  input[type="file"] {
+    font-size: 12px;
+  }
+}
